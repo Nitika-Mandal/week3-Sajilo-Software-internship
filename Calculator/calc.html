@@ -26,7 +26,11 @@
             <button onclick="appendToDisplay('0')">0</button>
             <button onclick="appendToDisplay('.')">.</button>
             <button onclick="calculate()">=</button>
-            <button id="clear" onclick="clearDisplay()" class="operator-btn" >C</button>
+            <button id="Allclear" onclick="clearDisplay()" class="operator-btn" >AC</button>
+            <button id="clear" onclick="deleteLastDigit()" class="operator-btn" >C</button>
+            <button onclick="appendToDisplay('%')" class="operator-btn" >%</button> 
+            <button id="powerBtn" onclick="togglePower()" class="operator-btn" >⏻</button>
+            
         </div>
     </div>
  <script src="calc.js"></script>
