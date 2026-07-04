@@ -31,6 +31,7 @@ function deleteLastDigit(){
     display.value= display.value.slice(0,-1);
 }
 
+// power button logic
 let isPowerOn = true;
 function togglePower(){
     isPowerOn= !isPowerOn;
