@@ -42,7 +42,7 @@ function togglePower(){
         display.placeholder='On'}
         else {
         display.value = '';
-        display.placeholder = '';
+        display.placeholder = 'OFF';
     
     }
 }
